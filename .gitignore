@@ -2,3 +2,4 @@ data
 wandb
 imdb_crop
 .DS_Store
+*.pt
