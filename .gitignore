@@ -3,3 +3,6 @@ wandb
 imdb_crop
 .DS_Store
 *.pt
+img_align_celeba
+*.mat
+cifar-10-batches-py
