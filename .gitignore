@@ -6,3 +6,4 @@ imdb_crop
 img_align_celeba
 *.mat
 cifar-10-batches-py
+data_mnist
