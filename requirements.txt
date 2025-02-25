@@ -8,3 +8,5 @@ tqdm==4.66.2
 matplotlib
 nltk
 gensim
+keras
+tensorflow
