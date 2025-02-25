@@ -10,3 +10,5 @@ nltk
 gensim
 keras
 tensorflow
+tqdm
+wandb
