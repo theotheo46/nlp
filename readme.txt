@@ -36,3 +36,9 @@ http://aiwatcher-theotheo46.amvera.io:5678/rest/oauth2-credential/callback
 CMD n8n import:workflow --separate --input=/usr/src/app/workflows/ &&
 n8n update:workflow --all --active=true &&
 n8n start
+
+n8n import:workflow --input=n8n.json
+
+
+Selectel karpov promo
+lTkupjzDNL
