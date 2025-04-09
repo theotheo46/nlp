@@ -12,3 +12,5 @@ keras
 tensorflow
 tqdm
 wandb
+ipywidgets
+kagglehub
