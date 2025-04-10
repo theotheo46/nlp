@@ -9,7 +9,7 @@ ssh root@176.114.66.250
 ### Gitlab
 
 ```
-ssh-keygen -t rsa -b 2048 -C "aiwatcher"
+ssh-keygen -t rsa -b 2048 -C "nlp"
 git clone git@gitlab.com:theotheo46/nlp.git
 ```
 
@@ -44,6 +44,16 @@ du -hs
 ```
 
 ## Необязательные шаги - на Selectel DS compatible server делать не надо
+
+#### install NVidia driver
+
+```
+sudo apt update && sudo apt upgrade -y && sudo apt autoclean
+sudo apt remove nvidia -y
+for kernel in $(linux-version list); do apt install -y "linux-headers-${kernel}"; done
+sudo apt install -y nvidia-driver-450-server
+```
+
 #### Как устанавливать torch под нужную куду
 
 - For CUDA 11
@@ -63,13 +73,5 @@ sudo apt-get update
 sudo apt-get install -y nvidia-cuda-toolkit
 sudo apt-get install -y build-essential python3-dev
 ```
-#### перезапуск Jupyter kernel
 
-#### install NVidia driver
 
-```
-sudo apt update && sudo apt upgrade -y && sudo apt autoclean
-sudo apt remove nvidia -y
-for kernel in $(linux-version list); do apt install -y "linux-headers-${kernel}"; done
-sudo apt install -y nvidia-driver-450-server
-```
