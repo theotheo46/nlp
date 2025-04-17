@@ -16,3 +16,4 @@ ipywidgets
 kagglehub
 wordcloud
 bokeh
+tokenizers
