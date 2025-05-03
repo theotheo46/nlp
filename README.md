@@ -28,6 +28,12 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 device
 ```
 
+### Claude system prompt
+
+```
+Im software developer and I want you to help me with writing code. I will ask questions in English, please give answers in Russian.
+```
+
 ### wandb
 
 ```
