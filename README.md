@@ -40,6 +40,12 @@ Im software developer and I want you to help me with writing code. I will ask qu
 wandb login cc603ae0565bbbfce5cc5b068a9bddabb8950920
 ```
 
+### HF
+
+```
+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
+```
+
 ### Some commands
 
 ```
