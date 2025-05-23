@@ -8,3 +8,5 @@ img_align_celeba
 cifar-10-batches-py
 data_mnist
 .venv
+chroma_db
+chroma_db.zip
